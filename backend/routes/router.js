@@ -2,7 +2,11 @@ const router = require('express').Router();
 
 const serviceRouter = require('./service');
 
-router.use( serviceRouter);
+router.use(serviceRouter);
+
+const partyController = require('./parties');
+
+router.use(partyController);
 
 
 
