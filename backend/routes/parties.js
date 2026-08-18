@@ -4,6 +4,14 @@ const partyController = require('../controllers/patyController');
 
 router.route('/parties').post((req, res) => partyController.create(req, res));
 
+router.route('/parties').get((req, res) => partyController.getAll(req, res));
+
+router.route('/parties/:id').get((req, res) => partyController.getById(req, res));
+
+router.route('/parties/:id').put((req, res) => partyController.update(req, res));
+
+router.route('/parties/:id').delete((req, res) => partyController.delete(req, res));
+
 
 module.exports = router;
 
