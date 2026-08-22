@@ -1,0 +1,125 @@
+.form-page h2,
+.form-page p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-page p {
+    color: #7703fc;
+}
+
+/* Formulário */
+.form-page form {
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Labels */
+.form-page label {
+    color: #747990;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Inputs e Textareas */
+.form-page input,
+.form-page textarea {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-page input::placeholder {
+    color: #a4a7b4;
+}
+
+.form-page input:focus,
+.form-page textarea:focus {
+    border-color: #7703fc;
+    box-shadow: 0 0 0 3px rgba(119, 3, 252, 0.2);
+    outline: none;
+}
+
+/* Serviços */
+.form-page .service {
+    max-width: 29%;
+    text-align: center;
+}
+
+.form-page .service img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.form-page .service p {
+    margin-bottom: 0;
+}
+
+/* Checkbox */
+.form-page .checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.form-page .checkbox-container p {
+    color: #747990;
+    font-size: 0.75rem;
+}
+
+/* Container de serviços */
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 0.3rem;
+}
+
+.services-container .service {
+    flex: 1 1 calc(25% - 1rem);
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.services-container .service:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Nome e preço do serviço */
+.form-page .service-name {
+    font-weight: bold;
+}
+
+.form-page .service-price {
+    color: #747990;
+}
+
+/* Botão */
+
+
+/* Ajuste container */
+.form-page .services-container {
+    padding: 0;
+}
